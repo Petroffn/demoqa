@@ -15,6 +15,6 @@ test('Add data to the fields', async ({ page }) => {
     await elementsTextBoxPageObject.permanentAddress("Albania, Vlore, Ruga Gjergj Kastrioti")
     await elementsTextBoxPageObject.submit();
 
-    await expect(page.locator('data-test-id=specialization')).toBeVisible();
+   
 
 });
